@@ -21,4 +21,4 @@ jobs:
         run: docker build . --file Dockerfile --tag syrinegh/angular-realworld-syrine
 
       - name: Docker Push
-        run: docker push syrinegh/angular-realworld-syrin
+        run: docker push syrinegh/angular-realworld-syrine
